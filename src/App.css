@@ -6,6 +6,44 @@
   height: 40vmin;
   pointer-events: none;
 }
+.layout-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #096dd9;
+}
+
+.ant-menu-dark.ant-menu-horizontal {
+  background-color: #096dd9;
+}
+
+.main-menu {
+  flex: 1;
+}
+.page-container {
+  min-height: calc(100vh - 136px);
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 16px;
+  margin:16px;
+}
+.list-card {
+  width: 100%;
+}
+
+.public-container {
+  min-height: calc(100vh - 72px);
+}
+h4 {
+  font-size: 1.2rem;
+}
+h5 {
+  font-size: 1rem;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

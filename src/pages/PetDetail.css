@@ -1,0 +1,35 @@
+.content-wrapper {
+    background-color: #fff;
+    padding:16px;
+    margin:16px;
+    border-radius: 8px;
+    font-family: 'Merienda', cursive;
+}
+.pet-content-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.pet-image-wrapper {
+    border-radius: 8px;
+    overflow: hidden;
+    width: 260px;
+    height: auto;
+}
+
+.pet-image {
+    width: 260px;
+    height: auto;
+}
+
+.pet-content-header {
+    padding-left: 16px;
+}
+
+.pet-content-header h1 {
+    font-size: 28px;
+}
+
+.pet-content-header h3 {
+    padding-top: 16px;
+}
